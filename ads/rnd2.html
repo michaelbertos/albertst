@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<script type="text/javascript">
+var run = new Array();
+
+run[0] = "ad1";
+run[1] = "ad2";
+run[2] = "ad3";
+run[3] = "ad4";
+run[4] = "ad5";
+run[5] = "ad6";
+run[6] = "ad7";
+run[7] = "ad8";
+
+function load() {
+  var i = Math.floor(Math.random() * run.length);
+  parent.location = run[i];
+  return false;
+}
+load();
+</script>
+</html>

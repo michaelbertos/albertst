@@ -1,0 +1,96 @@
+body {
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.fonte_padrao {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #5e5e5e;
+	text-decoration: none;
+}
+.fonte_padrao_grande {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #5c5c5c;
+	text-decoration: none;
+}
+
+.fonte_rodape {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #979797;
+	text-decoration: none;
+}
+
+
+.campo {
+			color: #000;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			border-style: solid;
+			border-width: 1px;
+			border-color: #CCC;
+			height: 25px;
+			width: 100%;
+			background-color: #FFFFFF;
+			vertical-align: middle;
+}
+.caixa {
+	color: #000000;
+	font-family: "Trebuchet MS", Arial;
+	font-size: 14px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCCCCC;
+	height: 120px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+	 
+/* #################################  */
+#tab_contorno{
+	border-left: 1px solid #efefef; 
+	border-right: 1px solid #efefef; 
+	border-bottom: 1px solid #efefef;	
+	border-top: 1px solid #efefef;	
+}
+
+#banner01 {
+	position: relative;
+	width: 990px;
+	height: 375px;
+	z-index: 1;
+	margin: 0 auto;
+}
+#banner02 {
+	position: absolute;
+	width: 990px;	
+	height: 440px;
+	z-index: 5;
+	top: -65px;
+	left: 0px;
+}
+#banner03 {
+	position: absolute;
+	width: 990px;
+	height: 37px;
+	z-index: 1000;
+	top: -37px;
+	left: 0px;
+	background-image:url(/15/imagensc/menubg.png);
+	overflow: hidden;
+}
+ /* #################################  */
+
+.rodape_bg1 { 	background-color: #fbfbfb;  }
+.rodape_bg2 { 	background-color: #e7e7e7;  }
+.separa_meio {   background: url(/15/imagensc/separa1b.png) center center;  }
+
